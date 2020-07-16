@@ -1,0 +1,295 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #333333;
+    font-size: 40pt;
+}
+
+.head {
+    color: white;
+}
+
+.main {
+    width: 100%;
+}
+
+.main h2 {
+    font-size: 30pt;
+}
+
+.larger {
+    width: 100%;
+}
+
+p { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 10pt;
+    text-align: left;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+#logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.homelogo {
+    position: relative;
+    top: 15px;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+#click {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    text-align: left;
+}
+
+.bottomright p {
+    text-align: left;
+}
+
+.bottomright h1 {
+    font-size: 40pt;
+    line-height: 10pt;
+}
+
+.bottomright p {
+    font-size: 14pt;
+    line-height: 2pt;
+    font-weight: 700;
+}
+
+#dorothy {
+    width: 100%;
+}
+
+.projects {
+    display: block;
+}
+
+.pics {
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 40%;
+}
+
+.photo {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+
+article {
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#paul {
+    background-color: #C3A489;
+    width: 100%;
+}
+
+#paulrand {
+    background-color: #C3A489;
+}
+
+#rand {
+    background-color: #C3A489;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pr {
+    color: #C3A489;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#unitrans {
+    width: 100%;
+    background-color: #B79C9C;
+}
+
+#bus {
+    background-color: #B79C9C;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.un {
+    color: #B79C9C;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.sideheader {
+    flex: 1;
+    color: white;
+    font-size: 8pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 40px;
+}
+
+#animalities {
+    width: 100%;
+    background-color: #9787A0;
+}
+
+#animal {
+    background-color: #9787A0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.an {
+    color: #9787A0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#chanel {
+    width: 100%;
+    background-color: #C8B6A6;
+}
+
+#kaiser {
+    background-color: #C8B6A6;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cc {
+    color: #C8B6A6;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#envision {
+    width: 100%;
+    background-color: #989A91;
+}
+
+#vision {
+    background-color: #989A91;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ev {
+    color: #989A91;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.int {
+    color: #333333;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#tedx {
+    width: 100%;
+    background-color: #8C95AC;
+}
+
+#talk {
+    background-color: #8C95AC;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ted {
+    color: #8C95AC;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.deet {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 1em;
+}
+
+.layout {
+    margin: auto;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 600px) {
+    .main {
+        width: 80%;
+        margin: auto;
+    }
+
+    .pics {
+        width: 60%;
+    }
+
+    .larger {
+        width: 80%;
+        margin: auto;
+    }
+
+    #layout {
+        margin: auto;
+    }
+
+    .bottomright h1 {
+        font-size: 60pt;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .larger {
+        width: 60%;
+        margin: auto;
+    }
+
+    .pics {
+        width: 30%;
+    }
+}
