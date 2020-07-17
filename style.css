@@ -29,6 +29,14 @@ p {
     text-align: left;
 }
 
+footer { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 10pt;
+    text-align: center;
+}
+
 .container {
     position: relative;
     color: white;
