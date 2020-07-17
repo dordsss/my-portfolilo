@@ -497,10 +497,6 @@ h2 {
         margin: auto;
     }
 
-    .pics {
-        width: 60%;
-    }
-
     .larger {
         width: 80%;
         margin: auto;
@@ -519,9 +515,5 @@ h2 {
     .larger {
         width: 60%;
         margin: auto;
-    }
-
-    .pics {
-        width: 30%;
     }
 }
