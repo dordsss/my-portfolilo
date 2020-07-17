@@ -184,10 +184,6 @@ article {
     z-index: 2;
 }
 
-#paulrand {
-    background-color: #C3A489;
-}
-
 #rand {
     width: 100%;
     display: flex;
