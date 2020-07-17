@@ -499,6 +499,9 @@ h2 {
     text-align: center;
 }
 
+.larger img {
+ padding: 20px;   
+}
 #wireframe {
     display: block;
     margin-left: auto;
