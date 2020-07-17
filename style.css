@@ -176,7 +176,6 @@ article {
 }
 
 #rand {
-    background-color: #C3A489;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -210,7 +209,6 @@ article {
 }
 
 #animal {
-    background-color: #9787A0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
