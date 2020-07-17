@@ -169,6 +169,11 @@ article {
     z-index: 2;
 }
 
+#wireframe {
+    text-align: center;
+    align-items: center;
+}
+
 .cards {
     position: absolute;
     top: 1250px;
