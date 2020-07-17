@@ -173,7 +173,8 @@ article {
     text-align: center;
     align-items: center;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cards {
