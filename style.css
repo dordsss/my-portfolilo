@@ -10,7 +10,7 @@ h1 {
 }
 
 .main {
-    width: 100%;
+    max-width: 100%;
 }
 
 .main h2 {
@@ -38,8 +38,8 @@ p {
 
 #logo {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 25px;
+    left: 25px;
 }
 
 .homelogo {
@@ -49,12 +49,6 @@ p {
     width: 50px;
     height: 50px;
     padding: 10px;
-}
-
-#click {
-    position: absolute;
-    top: 120px;
-    left: 120px;
 }
 
 .bottomright {
@@ -81,17 +75,42 @@ p {
 
 #dorothy {
     width: 100%;
+    background-color: rgba(248, 247, 216, 0.7);
 }
 
-.projects {
-    display: block;
+#dorothycrop {
+    width: 100%;
 }
 
-.pics {
+nav {
     display: block;
-    margin: auto;
-    padding: 30px;
-    width: 40%;
+    padding: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333333;
+    font-size: 12pt;
+}
+
+li a {
+    color: #333333;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: #333333;
 }
 
 .photo {
@@ -109,10 +128,46 @@ article {
     margin-bottom: 30px;
 }
 
+#orangeblob {
+    position: relative;
+    top: 10px;
+    left: -100px;
+    z-index: 1;
+}
 
-#paul {
-    background-color: #C3A489;
-    width: 100%;
+#redblob {
+    position: relative;
+    top: -200px;
+    left: 700px;
+    z-index: 1;
+}
+
+#purpleblob {
+    position: relative;
+    top: -300px;
+    left: -100px;
+    z-index: 1;
+}
+
+.book {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    z-index: 2;
+}
+
+#app {
+    position: absolute;
+    top: 875px;
+    left: 900px;
+    z-index: 2;
+}
+
+.cards {
+    position: absolute;
+    top: 1250px;
+    left: 300px;
+    z-index: 2;
 }
 
 #paulrand {
@@ -132,36 +187,25 @@ article {
     margin-block-end: 0;
 }
 
-#unitrans {
-    width: 100%;
-    background-color: #B79C9C;
-}
-
 #bus {
-    background-color: #B79C9C;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .un {
-    color: #B79C9C;
+    color: #BB2030;
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
 .sideheader {
     flex: 1;
-    color: white;
-    font-size: 8pt;
+    color: #333333;
+    font-size: 14pt;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     padding: 40px;
-}
-
-#animalities {
-    width: 100%;
-    background-color: #9787A0;
 }
 
 #animal {
@@ -177,11 +221,6 @@ article {
     margin-block-end: 0;
 }
 
-#chanel {
-    width: 100%;
-    background-color: #C8B6A6;
-}
-
 #kaiser {
     background-color: #C8B6A6;
     width: 100%;
@@ -193,11 +232,6 @@ article {
     color: #C8B6A6;
     margin-block-start: 0;
     margin-block-end: 0;
-}
-
-#envision {
-    width: 100%;
-    background-color: #989A91;
 }
 
 #vision {
@@ -219,11 +253,6 @@ article {
     margin-block-end: 0;
 }
 
-#tedx {
-    width: 100%;
-    background-color: #8C95AC;
-}
-
 #talk {
     background-color: #8C95AC;
     width: 100%;
@@ -241,8 +270,172 @@ a {
     text-decoration: none;
 }
 
-.deet {
+#prdeet {
+    text-align: left;
+    color: #E89E75;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#prinfo {
+    text-align: left;
+    color: #E89E75;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+    width: 500px;
+    line-height: 1.45em;
+}
+
+#prmore {
     text-align: center;
+    text-decoration: none;
+    color: #E89E75;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#prmore a {
+    text-decoration: none;
+    color: #E89E75;
+}
+
+#prmore:hover {
+    text-decoration: none;
+    background-color: #E89E75;
+}
+
+#prmore a:hover {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#prcontainer {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    z-index: 2;
+}
+
+#undeet {
+    text-align: left;
+    color: #BB2030;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#uninfo {
+    text-align: left;
+    color: #BB2030;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+    width: 500px;
+    line-height: 1.45em;
+}
+
+#unmore {
+    text-align: center;
+    text-decoration: none;
+    color: #BB2030;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#unmore a {
+    text-decoration: none;
+    color: #BB2030;
+}
+
+#unmore:hover {
+    text-decoration: none;
+    background-color: #BB2030;
+}
+
+#unmore a:hover {
+    color: white;
+}
+
+
+#uncontainer {
+    position: absolute;
+    top: 800px;
+    left: 300px;
+    z-index: 2;
+}
+
+#andeet {
+    text-align: left;
+    color: #79518F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#aninfo {
+    text-align: left;
+    color: #79518F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+    width: 500px;
+    line-height: 1.45em;
+}
+
+#anmore {
+    text-align: center;
+    text-decoration: none;
+    color: #79518F;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#anmore a {
+    text-decoration: none;
+    color: #79518F;
+}
+
+#anmore:hover {
+    text-decoration: none;
+    background-color: #79518F;
+}
+
+#anmore a:hover {
+    color: white;
+}
+
+#ancontainer {
+    position: absolute;
+    top: 1200px;
+    left: 700px;
+    z-index: 2;
 }
 
 h2 {
@@ -258,6 +451,13 @@ h2 {
     width: 100%;
 }
 
+#unitransfinal {
+    text-align: center;
+}
+
+#uf {
+    text-align: center;
+}
 
 @media screen and (min-width: 600px) {
     .main {
