@@ -169,9 +169,7 @@ article {
     z-index: 2;
 }
 
-#wireframe {
-    text-align: center;
-    align-items: center;
+.larger img {
     display: block;
     margin-left: auto;
     margin-right: auto;
