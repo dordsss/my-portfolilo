@@ -46,6 +46,11 @@ footer {
     left: 300px;
 }
 
+.pics {
+    text-align: center;
+    align-items: center;
+}
+
 #logo {
     position: absolute;
     top: 25px;
