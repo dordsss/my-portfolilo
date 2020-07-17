@@ -33,6 +33,7 @@ p {
     font-family: 'Poppins', sans-serif;
     font-weight: 1, 400;
     text-align: center;
+    color: #BB2030;
 }
 
 footer { 
@@ -46,7 +47,7 @@ footer {
 
 .container {
     position: relative;
-    color: white;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     left: 300px;
@@ -324,7 +325,7 @@ a {
 }
 
 #prmore a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .flex {
@@ -383,7 +384,7 @@ a {
 }
 
 #unmore a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 
@@ -438,7 +439,7 @@ a {
 }
 
 #anmore a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 #latest {
