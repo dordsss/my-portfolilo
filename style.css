@@ -29,6 +29,12 @@ p {
     text-align: left;
 }
 
+#quote {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1, 400;
+    text-align: center;
+}
+
 footer { 
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
