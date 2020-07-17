@@ -503,6 +503,18 @@ h2 {
     margin-right: auto;
 }
 
+#lofi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#designsystem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (min-width: 600px) {
     .main {
         width: 80%;
